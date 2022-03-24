@@ -1,6 +1,6 @@
 {
   "name": "vue-file-generator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A template for creating npm CLI tools using TypeScript and VSCode",
   "files": [
     "!lib/__tests__/**/*",
@@ -25,7 +25,7 @@
     "type": "git",
     "url": "git+https://github.com/siauderman/vue-file-generator.git"
   },
-  "license": "MIT",
+  "license": "GPL-3.0",
   "author": {
     "name": "Custom Automated Systems ® Pte Ltd",
     "email": "wilson.foo@customautosys.com",

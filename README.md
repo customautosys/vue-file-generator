@@ -32,7 +32,7 @@ Arguments:
 Examples:
 
   $ vue-file-generator --version
-  0.0.2
+  0.0.3
 ```
 
 [build-img]:https://github.com/ryansonshine/typescript-npm-cli-template/actions/workflows/release.yml/badge.svg
