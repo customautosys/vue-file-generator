@@ -1,5 +1,5 @@
 {
-  "name": "vue-builder",
+  "name": "vue-file-generator",
   "version": "0.0.1",
   "description": "A template for creating npm CLI tools using TypeScript and VSCode",
   "files": [
@@ -8,7 +8,7 @@
     "bin/**/*"
   ],
   "bin": {
-    "vue-builder": "./bin/index.js"
+    "vue-file-generator": "./bin/index.js"
   },
   "scripts": {
     "build": "tsc",
