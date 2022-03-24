@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --experimental-json-modules
 'use strict';
 
-require('../lib/cli.js');
+import '../lib/src/vue-builder.js';

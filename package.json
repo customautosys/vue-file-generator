@@ -1,6 +1,6 @@
 {
-  "name": "typescript-npm-cli-template",
-  "version": "0.0.0-development",
+  "name": "vue-builder",
+  "version": "0.0.1",
   "description": "A template for creating npm CLI tools using TypeScript and VSCode",
   "files": [
     "!lib/__tests__/**/*",
@@ -8,7 +8,7 @@
     "bin/**/*"
   ],
   "bin": {
-    "my-command": "./bin/index.js"
+    "vue-builder": "./bin/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -16,7 +16,6 @@
     "cm": "cz",
     "coverage": "codecov",
     "lint": "eslint ./src/ --fix",
-    "prepare": "husky install",
     "semantic-release": "semantic-release",
     "test:watch": "jest --watch",
     "test": "jest --coverage",
@@ -42,7 +41,6 @@
     "typescript",
     "vscode",
     "jest",
-    "husky",
     "commitizen",
     "semantic-release",
     "codecov"
@@ -52,7 +50,7 @@
   },
   "homepage": "https://github.com/ryansonshine/typescript-npm-cli-template#readme",
   "dependencies": {
-    "commander": "^7.2.0"
+    "commander": "^9.1.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
@@ -68,14 +66,13 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.4.0",
     "execa": "^5.1.1",
-    "husky": "^6.0.0",
     "jest": "^27.2.0",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "semantic-release": "^17.4.7",
     "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
-    "typescript": "^4.2.4"
+    "typescript": "^4.6.2"
   },
   "config": {
     "commitizen": {
@@ -89,5 +86,6 @@
     "branches": [
       "main"
     ]
-  }
+  },
+  "type": "module"
 }

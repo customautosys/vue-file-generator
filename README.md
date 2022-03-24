@@ -1,24 +1,4 @@
-# typescript-npm-cli-template
-
-> Boilerplate to kickstart creating a Node.js command-line tool
-
-Inspired by [node-cli-boilerplate](https://github.com/sindresorhus/node-cli-boilerplate)
-
-## Getting started
-
-**Click the "Use this template" button.**
-
-Alternatively, create a new directory and then run:
-
-```bash
-curl -fsSL https://github.com/ryansonshine/typescript-npm-cli-template/archive/main.tar.gz | tar -xz --strip-components=1
-```
-
-**Remove everything from here and above**
-
----
-
-# my-cli-name
+# vue-builder
 
 [![npm package][npm-img]][npm-url]
 [![Build Status][build-img]][build-url]
@@ -28,28 +8,31 @@ curl -fsSL https://github.com/ryansonshine/typescript-npm-cli-template/archive/m
 [![Commitizen Friendly][commitizen-img]][commitizen-url]
 [![Semantic Release][semantic-release-img]][semantic-release-url]
 
-> My awesome command-line tool
+> To auto-generate vue files from components in a folder
 
 ## Install
 
 ```bash
-npm install my-cli-name
+npm install vue-builder
 ```
 
 ## Usage
 
 ```bash
-Usage: my-command [options]
+Usage: vue-builder [options] [folder]
 
 Options:
   -V, --version            output the version number
   -d, --debug              enables verbose logging (default: false)
-  -v, --verbose            enables verbose logging (default: false)
+  -f, --folder             components are found in separate subfolders (default: false)
+
+Arguments:
+  folder                   folder in which components are found and vue files will be generated (default: .)
 
 Examples:
 
-  $ my-command --version
-  1.0.0
+  $ vue-builder --version
+  0.0.1
 ```
 
 [build-img]:https://github.com/ryansonshine/typescript-npm-cli-template/actions/workflows/release.yml/badge.svg
